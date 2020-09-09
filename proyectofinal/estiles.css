@@ -1,0 +1,39 @@
+body{
+	font-family: 'Times New Roman', Times, serif;
+	margin: 0;
+	line-height: 1.6rem;
+}
+p{
+	margin-bottom: 1.6em;
+}
+.container{
+	width: 85%;
+	max-width: 850px;
+	margin: 0 auto;
+}
+header{
+	background-color: rgb(22, 56, 56);
+	color:white;
+	padding: 2rem 0;
+}
+.container-logo-nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+header a{
+	color: white;
+	text-decoration: none;
+}
+.navigation ul{
+margin: 0;
+padding:0;
+list-style: none;
+}
+.navigation ul li{
+	display: inline-block;
+}
+.navigation ul li a{
+	display:block;
+	padding:0.5rem 1rem ;
+}
