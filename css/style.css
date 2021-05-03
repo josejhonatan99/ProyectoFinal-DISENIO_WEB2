@@ -267,10 +267,7 @@ div#preloader {
   background: rgba(0, 0, 0, 0.40);
   z-index: 9;
 }
-.navbar-brandpage-scrollsticky-logo img{
-width: 200px;
-height: 70px;
-}
+
 .navbar-header a.navbar-brand {
   display: inline-block;
   height: 70px;

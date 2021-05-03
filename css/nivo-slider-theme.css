@@ -112,6 +112,11 @@ Supports Thumbs: true
   vertical-align: top;
   width: 20px;
 }
+#ensign-nivoslider img{
+  width: 1920px;
+  height: 930px;
+}
+
 
 .nivo-controlNav a:hover, .nivo-controlNav a.active {
   background: #fff none repeat scroll 0 0;
