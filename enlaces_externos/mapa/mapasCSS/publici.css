@@ -1,0 +1,59 @@
+.box{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/images.jpg);
+}
+.box2{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/la-paz.jpg);
+    display: none;
+}
+.box3{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/oruro.jpg);
+    display: none;
+}
+.box4{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/potosi.jpg);
+    display: none;
+}
+.box5{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/pando.jpg);
+    display: none;
+}
+.box6{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/BENI.png);
+    display: none;
+}
+.box7{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/descarga.jpg);
+    display: none;
+}
+.box8{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/cocha.jpg);
+    display: none;
+}
+.box9{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/chuquisaca.jpg);
+    display: none;
+}
+.box10{
+    width: 560px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/img-puclicidad/tarija.jpg);
+    display: none;
+}

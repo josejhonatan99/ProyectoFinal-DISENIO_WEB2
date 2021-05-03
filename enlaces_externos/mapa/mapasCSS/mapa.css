@@ -1,0 +1,108 @@
+.caja{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/bol.png);
+}
+
+.caja2{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia.png);
+    display: none;
+}
+.caja3{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(2\).png);
+    display: none;
+}
+.caja4{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(3\).png);
+    display: none;
+}
+.caja5{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(4\).png);
+    display: none;
+}
+.caja6{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(5\).png);
+    display: none;
+}
+.caja7{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(6\).png);
+    display: none;
+}
+.caja8{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(7\).png);
+    display: none;
+}
+.caja9{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(8\).png);
+    display: none;
+}
+.caja10{
+    width: 470px;
+    height: 550px;
+    background-image: url(/enlaces_externos/mapa/images/images\ -\ copia\ \(9\).png);
+    display: none;
+}
+
+.sel{
+    background: rgba(0, 0, 0, 0.76);
+    color: white;
+    display: block;
+    width: 300px;
+    height: 55px;
+}
+
+.bot{
+float: left;
+}
+.cuadros{
+float: left;
+}
+.publicitar{
+    float: left;
+}
+header{
+    background: black;
+    margin: 0;
+}
+ul li{
+list-style: none;
+display: inline;
+}
+ul li img{
+    width: 300px;
+    height: 80px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+ul li a:hover{
+    background: rgb(180, 192, 16);
+    color: black;
+}
+*{
+    margin: 0;
+}
+
+.sel:hover{
+    background: rgb(207, 177, 8);
+    color: black;
+}
