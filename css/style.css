@@ -36,6 +36,11 @@
 /*  1.  Theme default CSS
 /*----------------------------------------*/
 
+#logoss{
+  width: 200px;
+  height: 80px;
+}
+
 html, body {
   height: 100%;
 }
@@ -257,10 +262,7 @@ div#preloader {
 
 /*  2. Header top Area
 /*--------------------------------*/
-#logoss{
-  width: 200px;
-  height: 100px;
-}
+
 .header-area {
   position: absolute;
   top: 0;
