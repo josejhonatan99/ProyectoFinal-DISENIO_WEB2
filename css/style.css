@@ -577,39 +577,25 @@ div#preloader {
 /*----------------------------------------
   6. categoria area
 ----------------------------------------*/
-.contenedor{
-  height: 500px;
-}
-#titulcat{
-  width: 100%;
-  height: 100px;
-  text-align: center;
-}
+
+
 #titulcat h4{
   font-size: 50px;
 }
 .cu{
   text-align: center;
   display: inline-block;
-  width: 320px;
-  height: 400px;
+  
   margin: 5px;
 }
-.cu img{
-  width: 100%;
-  height: 100%;
-}
 
-.cu:hover{
-
-}
 
 /*----------------------------------------
  7.Wellcome Area Css
 ----------------------------------------*/
 
 .wellcome-area {
-  background: rgba(248, 248, 248, 0.8) url("/img/background/copacabana.jpg");
+  background: rgba(248, 248, 248, 0.541) url("/img/background/copacabana.jpg");
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
@@ -686,7 +672,7 @@ div#preloader {
 ----------------------------------------*/
 
 .team-member {
-  background: rgba(0, 0, 0, 0.65) none repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0.158) none repeat scroll 0 0;
   display: block;
   margin-right: -15px;
   padding: 10px;
@@ -1106,126 +1092,21 @@ div#preloader {
 
 /*----------------------------------------*/
 
-/* 11. Pricing Area
+/* 11. mapa aereo
 /*----------------------------------------*/
-
-.pricing-area {
-  background: rgba(0, 0, 0, 0.02) none repeat scroll 0 0;
+#mapavuelos{
+  
 }
-
-.pri_table_list {
-  border: 1px solid #ccc;
+#mapavuelos:hover{
+  background: blue;
+  transition: 3s;
+}
+#mapavuelos h4{
   text-align: center;
-  transition: all 0.4s ease 0s;
-  background: #fff;
 }
-
-.pri_table_list h3 span {
-  font-size: 16px;
-}
-
-.pri_table_list ol li {
-  border-bottom: 1px solid #ccc;
-  color: #666;
-  padding: 12px 15px;
-  position: relative;
-  text-align: left;
-}
-
-.pri_table_list li.check.cross::after {
-  content: "\f00d";
-  font-family: fontawesome;
-  font-size: 14px;
-  position: absolute;
-  right: 50px;
-  top: 12px;
-  color: indianred;
-}
-
-.pri_table_list li.check::after {
-  content: "\f00c";
-  font-family: fontawesome;
-  font-size: 14px;
-  position: absolute;
-  right: 50px;
-  top: 12px;
-  color: #3EC1D5;
-}
-
-.pri_table_list button {
-  background: #444 none repeat scroll 0 0;
-  border: 1px solid #444;
-  color: #fff;
-  margin-bottom: 25px;
-  padding: 10px 35px;
-  text-transform: uppercase;
-  transition: all 0.4s ease 0s;
-  border-radius: 30px;
-}
-
-.pri_table_list>h3 {
-  color: #333;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 25px;
-  padding: 30px 0 20px;
-  text-transform: uppercase;
-  transition: all 0.4s ease 0s;
-}
-
-.pri_table_list ol {
-  list-style: outside none none;
-  margin: 0;
-  padding: 0 0 25px;
-}
-
-.pri_table_list.active {
-  transition: all 0.4s ease 0s;
-  position: relative;
-  overflow: hidden;
-}
-
-.saleon {
-  background: #3EC1D5 none repeat scroll 0 0;
-  color: #fff;
-  font-size: 13px;
-  font-weight: 700;
-  left: -26px;
-  padding: 2px 25px;
-  position: absolute;
-  text-transform: uppercase;
-  top: 16px;
-  transform: rotate(-45deg);
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
-  -moz-transform: rotate(-45deg);
-}
-
-.pri_table_list>button:hover {
-  background-color: #fff;
-  border: 1px solid #333;
-  color: #333;
-}
-
-.active>h3 {
-  background: #f5f5f5 none repeat scroll 0 0;
-  color: #333;
-  transition: all 0.4s ease 0s;
-}
-
-.active>button {
-  background: #3EC1D5 none repeat scroll 0 0;
-  border: 1px solid #3EC1D5;
-  color: #fff;
-  transition: 0.4s;
-}
-
-.active>button:hover {
-  background: #333 none repeat scroll 0 0;
-  border: 1px solid #333;
-  color: #fff;
-  transition: 0.4s;
+#mapavuelos img{
+ width: 100%;
+ height: 450px;
 }
 
 /*----------------------------------------
@@ -1233,7 +1114,7 @@ div#preloader {
 ----------------------------------------*/
 
 .testimonials-area {
-  background: rgba(0, 0, 0, 0) url("../img/background/slider1.jpg") no-repeat fixed center top / cover;
+  background: rgba(0, 0, 0, 0) url("/img/background/Bolivia-4A.jpg") no-repeat fixed center top / cover;
   height: auto;
   width: 100%;
 }
@@ -1462,7 +1343,7 @@ div#preloader {
 --------------------------------*/
 
 .suscribe-area {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #2ba70cc2 none repeat scroll 0 0;
   padding: 30px 0;
 }
 
@@ -1484,7 +1365,7 @@ div#preloader {
 .sus-btn {
   background: #fff none repeat scroll 0 0;
   border: 2px solid #fff;
-  color: #3EC1D5;
+  color: #267e03;
   display: inline-block;
   font-size: 16px;
   font-weight: 700;
@@ -1496,7 +1377,7 @@ div#preloader {
 }
 
 .sus-btn:hover {
-  background: #3EC1D5 none repeat scroll 0 0;
+  background: #307c03 none repeat scroll 0 0;
   border: 2px solid #fff;
   color: #fff;
 }
